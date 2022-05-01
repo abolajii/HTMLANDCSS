@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krunch</title>
+  </head>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .main_container {
+      background-image: url(./public/images/hero.jpeg);
+      height: 98vh;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .name_container {
+      font-size: 29px;
+      font-weight: bold;
+    }
+
+    .box_opacity {
+      background-color: rgba(0, 0, 0, 0.75);
+      height: 98vh;
+      color: #fff;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1150px;
+      margin: auto;
+      height: 150px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+    }
+
+    li {
+      margin: 0px 18px;
+    }
+  </style>
+
+  <body>
+    <div class="main_container">
+      <div class="box_opacity">
+        <div class="header">
+          <div class="name_container">Krunch</div>
+
+          <div class="nav_links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
